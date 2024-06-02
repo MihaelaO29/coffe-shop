@@ -1,0 +1,22 @@
+.nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    border-bottom:  0.1em solid white;
+  }
+  
+  .nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    padding-right: 190px;
+    font-weight: 500;
+  }
+  
+  .nav_link{
+    width: 130px;
+  }
