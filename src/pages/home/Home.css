@@ -1,0 +1,36 @@
+.shop {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.shop_title {
+  position: absolute;
+  top: 26%;
+  left: 26%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+
+.title {
+  font-family: "Great Vibes", "cursive";
+  font-size: 35px;
+  color: #c49b63;
+  font-weight: 600;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
