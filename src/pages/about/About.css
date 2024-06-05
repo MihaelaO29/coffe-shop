@@ -1,10 +1,10 @@
-.about_section{
+.about_section {
     scroll-behavior: smooth;
     height: 100vh;
     min-height: 700px;
 }
 
-.about_title{
+.about_title {
     position: absolute;
     top: 42%;
     left: 45%;
@@ -17,36 +17,36 @@
     font-size: 43px;
 }
 
-.about{
+.about {
     height: 100%;
     width: 100%;
 }
 
-.about_story{
+.about_story {
     display: flex;
     justify-content: space-between;
     position: relative;
     background: rgb(41, 40, 40);
     background: radial-gradient(circle, rgb(0 0 0 / 93%) 49%, rgb(83 83 83 / 62%) 100%);
-  }
+}
 
-.about_background{
+.about_background {
     width: 50%;
-  }
+}
 
-.story_content{
+.story_content {
     height: 280px;
     width: 550px;
     position: absolute;
     top: 15%;
     left: 43%;
-    background-color:rgb(108 107 107 / 49%);
+    background-color: rgb(108 107 107 / 49%);
     padding: 40px;
     z-index: 2;
     color: white;
 }
 
-.story_heading{
+.story_heading {
     font-size: 50px;
     display: block;
     margin-bottom: 0;
@@ -56,7 +56,7 @@
     margin-bottom: -21px;
 }
 
-.story_subheading{
+.story_subheading {
     z-index: -1;
     font-size: 40px;
     font-weight: 700;
@@ -64,28 +64,29 @@
     text-transform: uppercase;
 }
 
-.about_image{
+.about_image {
     width: 50%;
 }
 
-.testimony_section{
+.testimony_section {
     position: relative;
     height: 590px;
     width: 100%;
 }
 
-.testimony_container{
+.testimony_container {
     height: 100%;
     width: 100%;
     position: absolute;
-    background:#15141424;;
+    background: #15141424;
+    ;
     z-index: 1;
 }
 
-.testimony_heading{
+.testimony_heading {
     position: absolute;
     z-index: 3;
-    top:15%;
+    top: 15%;
     right: 45%;
     font-size: 50px;
     font-family: "Great Vibes", cursive;
@@ -93,10 +94,10 @@
     text-shadow: 1px 1px 2px black;
 }
 
-.testimony_subheading{
+.testimony_subheading {
     position: absolute;
     z-index: 2;
-    top:20%;
+    top: 20%;
     right: 39%;
     font-size: 40px;
     color: white;
@@ -104,21 +105,22 @@
     font-weight: 700;
 }
 
-.testimony_boxes{
+.testimony_boxes {
     position: absolute;
     bottom: 0;
     display: flex;
     align-items: end;
 }
 
-.box1{
+.box1 {
     height: 190px;
     width: 20%;
     background: #d9ab6b;
     padding: 2em;
     color: #fff;
 }
-.box2{
+
+.box2 {
     height: 270px;
     width: 20%;
     background: #c49b63;
@@ -127,7 +129,7 @@
 }
 
 
-.box3{
+.box3 {
     height: 230px;
     width: 20%;
     background: #d9ab6b;
@@ -135,7 +137,7 @@
     color: #fff;
 }
 
-.box4{
+.box4 {
     height: 190px;
     width: 20%;
     background: #c49b63;
@@ -143,7 +145,7 @@
     color: #fff;
 }
 
-.box5{
+.box5 {
     height: 240px;
     width: 20%;
     background: #d9ab6b;
@@ -151,17 +153,17 @@
     color: #fff;
 }
 
-.box_content{
+.box_content {
     display: flex;
     align-items: center;
     padding-top: 30px;
 }
 
-.user{
+.user {
     padding-right: 20px;
 }
 
-.menu_sample{
+.menu_sample {
     height: 600px;
     width: 100%;
     background: black;
@@ -173,26 +175,26 @@
 }
 
 
-.menu_sample_details{
+.menu_sample_details {
     width: 40%;
     color: white;
     text-align: right;
     padding-right: 3rem;
 }
 
-.menu_sample_images{
+.menu_sample_images {
     width: 35%;
     display: grid;
-    gap: 35px; 
+    gap: 35px;
     grid-template-rows: auto auto;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 240px 240px;
 }
 
-.menu_image{
+.menu_image {
     height: 240px;
 }
 
-.menu_sample_heading{
+.menu_sample_heading {
     font-size: 50px;
     margin-bottom: 0;
     font-family: "Great Vibes", cursive;
@@ -200,7 +202,66 @@
     line-height: 1;
     margin-bottom: -21px;
 }
-.menu_sample_subheading{font-size: 40px;
+
+.menu_sample_subheading {
+    font-size: 40px;
     font-weight: 700;
     padding-bottom: 30px;
+}
+
+.statistics {
+    height: 400px;
+    position: relative;
+}
+
+.statitstics_background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img_container{
+    border: 1px solid #ff6a00;
+    height: 80px;
+    width: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+    width 1s,
+    height 1s,
+    background-color 1s,
+    rotate 1s;
+}
+
+.statitstics_image {
+    height: 200px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statitstics_number{
+    font-weight: 400;
+    font-size: 30px;
+    color: #c49b63;
+}
+
+.statitstics_text{
+    font-weight: 380px;
+    font-size: 14px;
+    color: #bfbfbf;
+    text-shadow: 1px 1px 2px black;
+  
+}
+
+.img_container:hover{
+background-color: white;
+rotate: 360deg;
 }

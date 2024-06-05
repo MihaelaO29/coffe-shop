@@ -1,12 +1,14 @@
 import './About.css';
 import img1 from '../../images/img1.webp';
 import img3 from '../../images/img3.webp';
-import user from '../../images/user.png'
+import img2 from '../../images/img4.jpg';
+import user from '../../images/user.png';
 import about_image from '../../images/about.jpg';
 import menu1 from '../../images/menu-1.jpg';
 import menu2 from '../../images/menu-2.jpg';
 import menu3 from '../../images/menu-3.jpg';
 import menu4 from '../../images/menu-4.jpg';
+import img5 from '../../images/img5.png';
 
 function About() {
   return (
@@ -96,23 +98,66 @@ function About() {
         </div>
 
 
-</div>
-<div className='menu_sample'>
-  <div className='menu_sample_details'>
-<div className='menu_sample_heading'>Discover</div>
-<div className='menu_sample_subheading'>OUR MENU</div>
-<div className='text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-    sunt explicabo.</div>
-  </div>
-  <div className='menu_sample_images'>
-<img className='menu_image' src={menu1} alt='menu1'/>
-<img className='menu_image' src={menu2} alt='menu1'/>
-<img className='menu_image' src={menu3} alt='menu1'/>
-<img className='menu_image' src={menu4} alt='menu1'/>
-
-  </div>
       </div>
+      <div className='menu_sample'>
+        <div className='menu_sample_details'>
+          <div className='menu_sample_heading'>Discover</div>
+          <div className='menu_sample_subheading'>OUR MENU</div>
+          <div className='text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+            sunt explicabo.</div>
+        </div>
+        <div className='menu_sample_images'>
+          <img className='menu_image' src={menu1} alt='menu1' />
+          <img className='menu_image' src={menu2} alt='menu1' />
+          <img className='menu_image' src={menu3} alt='menu1' />
+          <img className='menu_image' src={menu4} alt='menu1' />
+
+        </div>
+      </div>
+      <div className='statistics' style={{
+        backgroundImage: `url(${img2})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center, center',
+      }}
+      >
+        <div className='statitstics_background'>
+          <div className='statitstics_image'>
+          <div className='img_container'>
+            <img  src={img5} alt='img5' />
+            </div>
+            <div className='statitstics_number'>100</div>
+            <div className='statitstics_text'>Coffee Branches</div>
+          </div>
+
+          <div className='statitstics_image'>
+            <div className='img_container'>
+            <img  src={img5} alt='img5' />
+            </div>
+            <div className='statitstics_number'>85</div>
+            <div className='statitstics_text'>Number of Awards</div>
+          </div>
+
+          <div className='statitstics_image'>
+          <div className='img_container'>
+            <img  src={img5} alt='img5' />
+            </div>
+            <div className='statitstics_number'>10,567</div>
+            <div className='statitstics_text'>Happy Customer</div>
+          </div>
+
+          <div className='statitstics_image'>
+          <div className='img_container'>
+            <img  src={img5} alt='img5' />
+            </div>
+            <div className='statitstics_number'>900</div>
+            <div className='statitstics_text'>Staff</div>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   );
 }
