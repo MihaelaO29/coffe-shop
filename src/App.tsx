@@ -9,13 +9,19 @@ import About from './pages/about/About';
 import Services from './pages/services/Services';
 import Menu from './pages/menu/Menu';
 import Contact from './pages/contact/Contact';
+import img3 from './images/img3.webp';
 
 
 function App() {
 
   return (
     <Router>
-      <div>
+      <div className='app'
+        style={{
+          backgroundImage: `url(${img3})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}>
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,6 +31,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+
     </Router>
   );
 }

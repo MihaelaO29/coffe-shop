@@ -1,6 +1,5 @@
 import './About.css';
 import img1 from '../../images/img1.webp';
-import img3 from '../../images/img3.webp';
 import img2 from '../../images/img4.jpg';
 import user from '../../images/user.png';
 import about_image from '../../images/about.jpg';
@@ -13,14 +12,8 @@ import img5 from '../../images/img5.png';
 function About() {
   return (
     <div className='about_section'>
-      <div className='about'
-        style={{
-          backgroundImage: `url(${img3})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className='about_title'>
+      <div className='about'>
+        <div className='about_heading'>
           ABOUT US
         </div>
       </div>
@@ -123,8 +116,8 @@ function About() {
       >
         <div className='statitstics_background'>
           <div className='statitstics_image'>
-          <div className='img_container'>
-            <img  src={img5} alt='img5' />
+            <div className='img_container'>
+              <img src={img5} alt='img5' />
             </div>
             <div className='statitstics_number'>100</div>
             <div className='statitstics_text'>Coffee Branches</div>
@@ -132,23 +125,23 @@ function About() {
 
           <div className='statitstics_image'>
             <div className='img_container'>
-            <img  src={img5} alt='img5' />
+              <img src={img5} alt='img5' />
             </div>
             <div className='statitstics_number'>85</div>
             <div className='statitstics_text'>Number of Awards</div>
           </div>
 
           <div className='statitstics_image'>
-          <div className='img_container'>
-            <img  src={img5} alt='img5' />
+            <div className='img_container'>
+              <img src={img5} alt='img5' />
             </div>
             <div className='statitstics_number'>10,567</div>
             <div className='statitstics_text'>Happy Customer</div>
           </div>
 
           <div className='statitstics_image'>
-          <div className='img_container'>
-            <img  src={img5} alt='img5' />
+            <div className='img_container'>
+              <img src={img5} alt='img5' />
             </div>
             <div className='statitstics_number'>900</div>
             <div className='statitstics_text'>Staff</div>

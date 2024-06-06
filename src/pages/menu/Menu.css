@@ -1,0 +1,131 @@
+.menu_section {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    min-height: 700px;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.menu_presentation {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.menu_heading,
+.subheading_menu_presentation {
+    text-shadow: 1px 1px 2px black;
+    font-weight: 600;
+    color: white;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading_menu_presentation {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c49b63;
+    line-height: 1;
+    margin-bottom: -21px;
+}
+
+.menu_category {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inactive {
+    color: #c49b63;
+    width: 110px;
+    border-bottom: 1px solid #c49b63;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #c49b63;
+    width: 110px;
+    border-bottom: 1px solid #c49b63;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.food_menu,
+.dessert_menu,
+.drink_menu {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.food_image,
+.drink_image,
+.dessert_image {
+    height: 270px;
+}
+
+.food_name,
+.drink_name,
+.dessert_name,
+.price {
+    color: white;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.food_details,
+.drink_details,
+.dessert_details {
+    display: grid;
+    gap: 40px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 335px 335px 335px;
+}
+
+.button_add_cart {
+    border: 1px solid #c49b63;
+    color: #c49b63;
+    height: 35px;
+    width: 95px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.button_add_cart:hover{
+    background-color:#c49b63;
+    color:white;
+}

@@ -18,8 +18,8 @@ function Home() {
   }, [images.length]);
 
   return (
-    <div className='app'>
-      <div className='shop'
+    <div className='home'>
+      <div className='home_section'
         style={{
           backgroundImage: `url(${images[currentImageIndex]})`,
           backgroundSize: 'cover',
@@ -27,7 +27,7 @@ function Home() {
         }}
       >
       </div>
-      <div className='shop_title'>
+      <div className='home_title'>
         <p className='title'>Welcome</p>
         <p className='subtitle'>THE BEST COFFEE TESTING EXPERIENCE</p>
       </div>
