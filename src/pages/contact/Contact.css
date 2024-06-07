@@ -1,0 +1,107 @@
+.contact_section {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    min-height: 700px;
+    background-color: #0000004d;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.contact_heading {
+    text-shadow: 1px 1px 2px black;
+    font-weight: 600;
+    color: white;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_case {
+    background-color: black;
+    display: flex;
+    padding: 85px 100px;
+}
+
+.contact_headind_case {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+.contact_information {
+    height: 300px;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+}
+
+.form_box1,
+.form_box2,
+.form_box3 {
+    font-size: 17px;
+    font-weight: 500;
+    border: transparent;
+    outline: none;
+    background-color: transparent;
+    margin: unset;
+    border: transparent;
+    border-bottom: 1px solid #c49b63;
+    color: white;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+
+.form_box1 {
+    width: 260px;
+    height: 75px;
+}
+
+.form_box2 {
+    width: 562px;
+    height: 75px;
+}
+
+.form_box3 {
+    width: 562px;
+    height: 175px;
+    line-height: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 50%;
+}
+
+.form_btn {
+    height: 55px;
+    width: 200px;
+    background-color: #c49b63;
+    border: 0;
+}
+
+.form_btn:hover {
+    background-color: black;
+    border: 1px solid #c49b63;
+    color: #c49b63;
+}
+
+.contact_adress {
+    color: #c49b63;
+    font-size: 17px;
+    font-weight: 500;
+}

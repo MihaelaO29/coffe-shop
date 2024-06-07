@@ -21,26 +21,18 @@ import dessert6 from '../../images/dessert6.png';
 
 
 function Menu() {
-  const [showFood, setShowFood] = useState(true);
-  const [showDrinks, setShowDrinks] = useState(false);
-  const [showDesserts, setShowDesserts] = useState(false);
+  const [category, showCategory] = useState('main');
 
-  const handleShowMenu = () => {
-    setShowFood(true)
-    setShowDrinks(false)
-    setShowDesserts(false)
+  const handleShowMain = () => {
+    showCategory('main')
   }
 
   const handleShowDrinks = () => {
-    setShowDrinks(true)
-    setShowDesserts(false)
-    setShowFood(false)
+    showCategory('drinks')
   }
 
   const handleShowDesserts = () => {
-    setShowDesserts(true)
-    setShowDrinks(false)
-    setShowFood(false)
+    showCategory('desserts')
   }
 
   return (
@@ -59,12 +51,12 @@ function Menu() {
         </div>
         
         <div className='menu_category'>
-          <div onClick={handleShowMenu} className={showFood ? ('active') : ('inactive')}>Main Dish</div>
-          <div onClick={handleShowDrinks} className={showDrinks ? ('active') : ('inactive')}>Drinks</div>
-          <div onClick={handleShowDesserts} className={showDesserts ? ('active') : ('inactive')}>Desserts</div>
+          <div onClick={handleShowMain} className={category === 'main' ? ('active') : ('inactive')}>Main Dish</div>
+          <div onClick={handleShowDrinks} className={category === 'drinks' ? ('active') : ('inactive')}>Drinks</div>
+          <div onClick={handleShowDesserts} className={category === 'desserts' ? ('active') : ('inactive')}>Desserts</div>
         </div>
 
-        {showFood ? (
+        {category === 'main' ? (
           <div className='food_details'>
             <div className='food_menu'>
               <img className='food_image' src={food1} alt='food1' />
@@ -104,7 +96,7 @@ function Menu() {
             </div>
           </div>) : ('')}
 
-        {showDrinks ? (
+        {category === 'drinks' ? (
           <div className='drink_details'>
             <div className='drink_menu'>
               <img className='drink_image' src={drink1} alt='drink1' />
@@ -145,7 +137,7 @@ function Menu() {
           </div>
         ) : ('')}
 
-        {showDesserts ? (
+        {category === 'desserts' ? (
           <div className='dessert_details'>
             <div className='dessert_menu'>
               <img className='dessert_image' src={dessert1} alt='dessert1' />

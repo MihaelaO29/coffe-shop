@@ -19,11 +19,13 @@ function Home() {
 
   return (
     <div className='home'>
+
       <div className='home_section'
         style={{
           backgroundImage: `url(${images[currentImageIndex]})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          backgroundColor:'#0000004d'
         }}
       >
       </div>
