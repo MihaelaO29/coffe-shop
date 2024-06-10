@@ -1,0 +1,131 @@
+.footer_section {
+    height: 370px;
+    padding: 30px 180px;
+    color:white;
+    background-color: black;
+    font-size: 16px;
+}
+
+.social_media_details {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.media_img {
+    height: 85px;
+    width: 115px;
+}
+
+
+.social_media,
+.blog,
+.services_resume,
+.contact_resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 80%;
+    width: 30%;
+    padding-right: 50px;
+}
+
+.social_media {
+    width: 20%;
+}
+
+.blog {
+    width: 35%;
+}
+
+.contact_resume {
+    width: 30%;
+}
+
+.services_resume {
+    width: 10%;
+}
+
+.social_media_logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.media_logo {
+    height: 25px;
+    padding-right: 20px;
+}
+
+.media_content {
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.media_date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px; 
+}
+
+.media_date_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12p;
+    color: #616161bd;
+    font-weight: 500;
+}
+
+.media_date_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.media_date_img {
+    padding-right: 10px;
+    height: 15px;
+}
+
+.services_options {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #616161bd;
+    font-weight: 500;
+}
+
+.contact_details {
+    height: 180px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media_text{
+    color: #616161bd;
+    font-weight: 500;
+}

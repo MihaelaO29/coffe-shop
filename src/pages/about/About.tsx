@@ -12,7 +12,7 @@ import img5 from '../../images/img5.png';
 function About() {
   return (
     <div className='about_section'>
-      <div className='about'>
+      <div className='about_title '>
         <div className='about_heading'>
           ABOUT US
         </div>
