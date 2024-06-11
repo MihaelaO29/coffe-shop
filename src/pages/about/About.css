@@ -267,4 +267,5 @@
 .img_container:hover {
     background-color: white;
     rotate: 360deg;
+    cursor: pointer;
 }

@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navigation from './components/navigation/navigation';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from './pages/services/Services';
@@ -27,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-
+    
     </Router>
   );
 }

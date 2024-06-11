@@ -73,6 +73,10 @@
     padding-right: 20px;
 }
 
+.media_logo {
+    cursor: pointer;
+}
+
 .media_content {
     height: 85px;
     display: flex;

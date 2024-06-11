@@ -1,6 +1,6 @@
 .nav {
   height: 100px;
-  width: 100%;
+  width: calc(100% - 17px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,7 +8,7 @@
   position: absolute;
   text-decoration: none;
   z-index: 5;
-  background-color: #0000004d;
+  background-color: #00000070;
 }
 
 .nav_menu {

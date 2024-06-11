@@ -14,7 +14,7 @@ import Navigation from '../../components/navigation/navigation';
 
 function About() {
   return (
-    <div className='about_section' >
+    <div className='about_section'  >
       <Navigation />
       <div className='about_title '>
         <div className='about_heading'>

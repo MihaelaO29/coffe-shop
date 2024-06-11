@@ -6,7 +6,6 @@ import img3 from '../../images/img3.webp';
 import Navigation from '../../components/navigation/navigation';
 import Footer from '../../components/footer/footer';
 
-
 function Home() {
   const images = [img1, img2, img3];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -20,6 +19,7 @@ function Home() {
   }, [images.length]);
 
   return (
+ 
     <div className='home'>
       <Navigation />
       <div className='home_section'
@@ -38,7 +38,6 @@ function Home() {
 
       <Footer />
     </div>
-
   );
 }
 
