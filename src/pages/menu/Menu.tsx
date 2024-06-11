@@ -18,6 +18,8 @@ import dessert3 from '../../images/dessert3.png';
 import dessert4 from '../../images/dessert4.png';
 import dessert5 from '../../images/dessert5.png';
 import dessert6 from '../../images/dessert6.png';
+import Navigation from '../../components/navigation/navigation';
+import Footer from '../../components/footer/footer';
 
 
 function Menu() {
@@ -37,6 +39,7 @@ function Menu() {
 
   return (
     <div className='menu_section'>
+      <Navigation />
       <div className='menu'>
         <div className='menu_heading'>
           OUR MENU
@@ -49,7 +52,7 @@ function Menu() {
         <div className='subheading_menu_presentation'>
           OUR PRODUCTS
         </div>
-        
+
         <div className='menu_category'>
           <div onClick={handleShowMain} className={category === 'main' ? ('active') : ('inactive')}>Main Dish</div>
           <div onClick={handleShowDrinks} className={category === 'drinks' ? ('active') : ('inactive')}>Drinks</div>
@@ -177,6 +180,7 @@ function Menu() {
             </div>
           </div>) : ('')}
       </div>
+      <Footer />
     </div>
   );
 }

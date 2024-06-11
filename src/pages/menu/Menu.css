@@ -104,7 +104,7 @@
     color: white;
 }
 
-.price{
+.price {
     font-size: 18px;
 }
 
@@ -126,7 +126,7 @@
     cursor: pointer;
 }
 
-.button_add_cart:hover{
-    background-color:#c49b63;
-    color:white;
+.button_add_cart:hover {
+    background-color: #c49b63;
+    color: white;
 }

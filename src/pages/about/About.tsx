@@ -8,10 +8,14 @@ import menu2 from '../../images/menu-2.jpg';
 import menu3 from '../../images/menu-3.jpg';
 import menu4 from '../../images/menu-4.jpg';
 import img5 from '../../images/img5.png';
+import Footer from '../../components/footer/footer';
+import Navigation from '../../components/navigation/navigation';
+
 
 function About() {
   return (
-    <div className='about_section'>
+    <div className='about_section' >
+      <Navigation />
       <div className='about_title '>
         <div className='about_heading'>
           ABOUT US
@@ -149,8 +153,7 @@ function About() {
         </div>
 
       </div>
-
-
+      <Footer />
     </div>
   );
 }

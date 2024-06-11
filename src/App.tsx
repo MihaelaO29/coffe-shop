@@ -6,7 +6,6 @@ import About from './pages/about/About';
 import Services from './pages/services/Services';
 import Menu from './pages/menu/Menu';
 import Contact from './pages/contact/Contact';
-import Footer from './components/footer/footer';
 import img3 from './images/img3.webp';
 
 
@@ -20,7 +19,6 @@ function App() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}>
-        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,7 +26,6 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer/>
       </div>
 
     </Router>

@@ -1,4 +1,5 @@
 .footer_section {
+    overflow: hidden;
     height: 370px;
     padding: 30px 180px;
     color:white;

@@ -1,3 +1,5 @@
+import Footer from '../../components/footer/footer';
+import Navigation from '../../components/navigation/navigation';
 import './Contact.css';
 
 
@@ -8,6 +10,7 @@ function Contact() {
 
   return (
     <div className='contact_section'>
+      <Navigation />
       <div className='contact'>
         <div className='contact_heading'>
           CONTACT US
@@ -32,6 +35,7 @@ function Contact() {
         </form>
 
       </div>
+      <Footer />
     </div>
 
   );
